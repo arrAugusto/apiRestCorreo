@@ -28,9 +28,22 @@ namespace apiRestCorreo.Controllers.models
         public string pass_email { get; set; }
         public string telefono { get; set; }
         public string codigo { get; set; }
-        public string es_activo { get; set; }
-        public string es_admin { get; set; }
 
     }
+    public class viewUser
+    {
+        public string name_email { get; set; }
+        public string pass_email     { get; set; }
+    }
+    public class ResponseGetUsuario
+    {
+        public string responseUsuario { get; set; }
+    }
 
+}
+
+public class ClassName
+{
+    public string name_email { get; set; }
+    public string pass_email { get; set; }
 }

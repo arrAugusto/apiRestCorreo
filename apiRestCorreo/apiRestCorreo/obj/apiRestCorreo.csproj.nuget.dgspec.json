@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\agr12\\source\\repos\\apiRestCorreo\\apiRestCorreo\\apiRestCorreo.csproj": {}
+    "C:\\Users\\agr12\\Desktop\\University\\apiRestCorreo\\apiRestCorreo\\apiRestCorreo\\apiRestCorreo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\agr12\\source\\repos\\apiRestCorreo\\apiRestCorreo\\apiRestCorreo.csproj": {
+    "C:\\Users\\agr12\\Desktop\\University\\apiRestCorreo\\apiRestCorreo\\apiRestCorreo\\apiRestCorreo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\agr12\\source\\repos\\apiRestCorreo\\apiRestCorreo\\apiRestCorreo.csproj",
+        "projectUniqueName": "C:\\Users\\agr12\\Desktop\\University\\apiRestCorreo\\apiRestCorreo\\apiRestCorreo\\apiRestCorreo.csproj",
         "projectName": "apiRestCorreo",
-        "projectPath": "C:\\Users\\agr12\\source\\repos\\apiRestCorreo\\apiRestCorreo\\apiRestCorreo.csproj",
+        "projectPath": "C:\\Users\\agr12\\Desktop\\University\\apiRestCorreo\\apiRestCorreo\\apiRestCorreo\\apiRestCorreo.csproj",
         "packagesPath": "C:\\Users\\agr12\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\agr12\\source\\repos\\apiRestCorreo\\apiRestCorreo\\obj\\",
+        "outputPath": "C:\\Users\\agr12\\Desktop\\University\\apiRestCorreo\\apiRestCorreo\\apiRestCorreo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\agr12\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,13 +40,29 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "AttachedCommandBehavior": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
             "Dapper": {
               "target": "Package",
               "version": "[2.0.78, )"
             },
+            "IdentityModel": {
+              "target": "Package",
+              "version": "[5.1.0, )"
+            },
             "MySql.Data": {
               "target": "Package",
               "version": "[8.0.23, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.11.0, )"
             }
           },
           "imports": [
